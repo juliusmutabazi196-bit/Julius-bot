@@ -296,10 +296,6 @@ def check_expiry():
 def privacy():
     return "Privacy Policy - Julius Bot 0741408735: 5 FREE per new user. 1000 FREE customers/month Meta, 70 UGX per extra. Contact 0794685901 Kampala"
 
-@app.route("/")
-def home():
-    return "Julius Bot LIVE - 0741408735"
-
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
